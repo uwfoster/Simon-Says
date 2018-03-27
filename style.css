@@ -1,0 +1,35 @@
+div{
+  display: flex;
+}
+
+#container{
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 200px;
+}
+
+.quadrant{
+  width: 100px;
+}
+
+
+#red{
+  background-color: red;
+  border-top-left-radius: 100%;
+}
+
+#blue{
+  background-color: blue;
+  border-top-right-radius: 100%;
+}
+
+#yellow{
+  background-color: yellow;
+  border-bottom-left-radius: 100%;
+}
+
+#green{
+  background-color: green;
+  border-bottom-right-radius: 100%;
+}
